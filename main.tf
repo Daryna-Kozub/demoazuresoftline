@@ -177,4 +177,4 @@ variable "default_environment_tag" {
   default = "Terraform Demo"
   description = "Default environment tag for the resources of stack"
 }
-}
+
