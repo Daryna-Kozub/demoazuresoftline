@@ -166,14 +166,14 @@ variable "resourcename" {
   description = "Name for resource group to create VM in"
 }
 variable "prefix" {
-    default = "web"
+    default = "webb"
 }
 variable "vm_name" {
-  default = "webVmM"
+  default = "webVmMm"
   description = "Name for VM to be created"
 }
 variable "default_environment_tag" {
-  default = "web"
+  default = "webb"
   description = "Default environment tag for the resources of stack"
 }
 output "vm_ip" {
